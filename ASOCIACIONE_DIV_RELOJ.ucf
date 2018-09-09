@@ -1,0 +1,2 @@
+NET "CLK" LOC = "M6"; # Reloj de la FPGA
+NET "SAL" LOC = "M5"; # LED0

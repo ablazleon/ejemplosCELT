@@ -1,0 +1,2 @@
+NET "CONMUT" LOC = "P11"; # Conmutador 0
+NET "LED" LOC = "M5"; # LED0
