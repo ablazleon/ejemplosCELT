@@ -1,0 +1,8 @@
+# Fichero de asociaciones ejemplo 1
+# Departamento de Ingeniería Electrónica (2013)
+
+NET "CONMUT0" LOC = "P11"; # Conmutador 0
+NET "CONMUT1" LOC = "L3"; # Conmutador 0
+NET "CONMUT2" LOC = "K3"; # Conmutador 0
+
+NET "LED" LOC = "M11";     # LED0

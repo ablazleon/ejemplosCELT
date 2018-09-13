@@ -1,0 +1,17 @@
+xst -intstyle ise -ifn "C:/Users/alumno/Desktop/adrianHeng/proyecto/circuito.xst" -ofn "C:/Users/alumno/Desktop/adrianHeng/proyecto/circuito.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc asociaciones.ucf -p xc3s100e-cp132-5 circuito.ngc circuito.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o circuito_map.ncd circuito.ngd circuito.pcf 
+par -w -intstyle ise -ol high -t 1 circuito_map.ncd circuito.ncd circuito.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml circuito.twx circuito.ncd -o circuito.twr circuito.pcf -ucf asociaciones.ucf 
+bitgen -intstyle ise -f circuito.ut circuito.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc asociaciones.ucf -p xc3s100e-cp132-5 circuito.ngc circuito.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o circuito_map.ncd circuito.ngd circuito.pcf 
+par -w -intstyle ise -ol high -t 1 circuito_map.ncd circuito.ncd circuito.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml circuito.twx circuito.ncd -o circuito.twr circuito.pcf -ucf asociaciones.ucf 
+bitgen -intstyle ise -f circuito.ut circuito.ncd 
+xst -intstyle ise -ifn "C:/Users/alumno/Desktop/adrianHeng/proyecto/circuito.xst" -ofn "C:/Users/alumno/Desktop/adrianHeng/proyecto/circuito.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc asociaciones.ucf -p xc3s100e-cp132-5 circuito.ngc circuito.ngd  
+map -intstyle ise -p xc3s100e-cp132-5 -cm area -ir off -pr off -c 100 -o circuito_map.ncd circuito.ngd circuito.pcf 
+par -w -intstyle ise -ol high -t 1 circuito_map.ncd circuito.ncd circuito.pcf 
+trce -intstyle ise -v 3 -s 5 -n 3 -fastpaths -xml circuito.twx circuito.ncd -o circuito.twr circuito.pcf -ucf asociaciones.ucf 
+bitgen -intstyle ise -f circuito.ut circuito.ncd 

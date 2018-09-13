@@ -1,0 +1,11 @@
+//! **************************************************************************
+// Written by: Map P.20131013 on Thu Sep 13 17:05:41 2018
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "LED" LOCATE = SITE "M11" LEVEL 1;
+COMP "CONMUT0" LOCATE = SITE "P11" LEVEL 1;
+COMP "CONMUT1" LOCATE = SITE "L3" LEVEL 1;
+COMP "CONMUT2" LOCATE = SITE "K3" LEVEL 1;
+SCHEMATIC END;
+
